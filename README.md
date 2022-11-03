@@ -13,7 +13,7 @@ python:
  - "3.7"
 install:
 - Miniconda (You need to configure your system with https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
--
+
 Creating a conda environment with osmnx:
  - conda info -a
  - conda config --prepend channels conda-forge
