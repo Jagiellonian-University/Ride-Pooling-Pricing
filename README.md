@@ -20,6 +20,16 @@ Creating a conda environment with osmnx:
  - conda create -n ox --strict-channel-priority osmnx
  - conda activate ox
  ```
+ 
+ ## Installing Packages 
+ 
+ Clone this directory (cd Ride-Pooling-Pricing)
+ ```
+ pip install -r requirements-ExMAS.txt
+ ```
+ ```
+ pip install -r requirements-MaaSSim.txt
+```
 
 ## Installing ExMAS
 
