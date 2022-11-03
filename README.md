@@ -7,11 +7,19 @@ This module require ExMAS and MaaSSim.
 
 ## Building Environment (Miniconda & OSMNX)
 
+```
+language: python
+python:
+ - "3.7"
 install:
 - Miniconda (You need to configure your system with https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
-- conda update -q conda
-- conda create -n ox --strict-channel-priority osmnx
-- conda activate ox
+-
+Creating a conda environment with osmnx:
+ - conda info -a
+ - conda config --prepend channels conda-forge
+ - conda create -n ox --strict-channel-priority osmnx
+ - conda activate ox
+ ```
 
 ## Installing ExMAS
 
