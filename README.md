@@ -37,7 +37,7 @@ Creating a conda environment with osmnx:
 pip install git+https://github.com/RafalKucharskiPK/ExMAS.git
 ```
 
-## Installing MaSSim
+## Installing MaaSSim
 
 ```
 pip install git+https://github.com/RafalKucharskiPK/MaaSSim.git
