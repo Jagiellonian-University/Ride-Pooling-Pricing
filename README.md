@@ -48,7 +48,8 @@ pip install git+https://github.com/RafalKucharskiPK/MaaSSim.git
 * [Quickstart tutorial](https://github.com/RafalKucharskiPK/ExMAS/blob/master/ExMAS/notebooks/ExMAS.ipynb)
 
 
-
+----
+Usman Akhtar, Jagiellonian-University, 2022 email: usman.akhtar@uj.edu.pl
 
 
 
