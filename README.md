@@ -45,7 +45,7 @@ pip install git+https://github.com/RafalKucharskiPK/MaaSSim.git
 
 ### Documentation
 
-* [Quickstart tutorial](https://github.com/RafalKucharskiPK/ExMAS/blob/master/ExMAS/notebooks/ExMAS.ipynb)
+* [Quickstart tutorial](https://github.com/Jagiellonian-University/Ride-Pooling-Pricing/blob/main/PricingModel.ipynb)
 
 
 ----
