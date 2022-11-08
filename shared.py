@@ -1,8 +1,7 @@
 ################################################################################
 # Module: shared.py
 # Integration with ExMAS
-# Exact Matching of Attractive Shared rides (ExMAS) for system-wide strategic evaluations
-# Rafal Kucharski @ TU Delft
+# Usman Akhtar Version 1.0
 ################################################################################
 
 import pandas as pd
@@ -77,7 +76,7 @@ def prep_shared_rides(_inData, sp, _print=False):
 
 def make_schedule_nonshared(requests):
     """
-    preares the schedule for a non shared rides
+    prepare the schedule for a non shared rides
     :param requests: inData.requests
     :return: schedule
     """
@@ -95,7 +94,7 @@ def make_schedule_nonshared(requests):
 
 def make_schedule_shared(row):
     """
-    prpepares a schedule of a shared ride for simulation
+    prepares a schedule of a shared ride for simulation
     schedule is a sequence of visited nodes in time
     :param row: single shared ride from ExMAS
     :return:
@@ -108,6 +107,7 @@ def make_schedule_shared(row):
     schedule.req_id = row.req_id
     schedule.node = nodes
 
-    schedule.od = [None] + ['o'] * row.degree + ['d'] * row.degree
+
+    schedule.od = [None] + ['o'] * int(row.degree) + ['d'] * int(row.degree)
 
     return schedule
